@@ -1,0 +1,13 @@
+# FocusedRowChanged event and AJAX UpdatePanel
+
+
+<p>This sample shows you how to synchronize the grid's focused row with other controls using callbacks. For this purpose, the grid and other control should reside within the same UpdatePanel.<br />
+      <br />
+      To properly set up the grid, set the <strong>EnableCallbacks</strong> property to <strong>false</strong>. This will force the grid to perform postbacks. Additionally, use the following event handler for the client <strong>FocusedRowChanged</strong> event:<br />
+      <i>FocusedRowChanged="function(s, e) { grid.PerformCallback(); }"</i><br />
+      <br />
+      Please make sure to perform all necessary calculations in the web page's <strong>Load</strong> event handler. You can't use the <strong>FocusedRowChanged</strong> event, because it is called before loading the view state.</p>
+
+<br/>
+
+
