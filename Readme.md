@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # FocusedRowChanged event and AJAX UpdatePanel
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e83/)**
+<!-- run online end -->
 
 
 <p>This sample shows you how to synchronize the grid's focused row with other controls using callbacks. For this purpose, the grid and other control should reside within the same UpdatePanel.<br />
